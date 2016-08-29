@@ -1,0 +1,40 @@
+/* 
+Use for full screen unresponsive image
+ */
+/* 
+html { 
+  background: url(../images/front-page-cover.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+.header-cover {
+    background-image: url('../images/front-page-cover-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.cover-bold {
+	font-family: 'Lato', sans-serif;
+	padding: 400px 0 5px 0;
+	font-size: 40px;
+	color: white;
+}
+
+.cover-normal {
+	font-family: 'Lato', sans-serif;
+	padding: 0 0 60px 0;
+	max-width: 260px;
+	font-size: 16px;
+	color: white;	
+}
