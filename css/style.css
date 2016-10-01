@@ -1,6 +1,6 @@
 /* 
 Use for full screen unresponsive image
- */
+*/
 /* 
 html { 
   background: url(../images/front-page-cover.jpg) no-repeat center center fixed; 
@@ -15,24 +15,124 @@ body {
 	margin: 0px 0px 0px 0px;
 }
 
+.nav-logo {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	opacity: 1;
+}
+
+.nav-logo-first-name {
+	font-size: 50px;
+	letter-spacing: 4px;
+}
+
+.nav-logo-last-name {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 6px;
+	padding-top: 10px;
+	padding-left: 60px;
+	text-transform: uppercase;
+}
+
+.header-cover-5 {
+	background-image: url('../collages/collage-5.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 55% 20%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+
+.header-cover-4 {
+	background-image: url('../collages/collage-1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 55% 30%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+
+.header-cover-3 {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../images/front-page-cover-1.jpg');
+	background-repeat: no-repeat;
+	background-position: 30% 50%;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+.header-cover-2 {
+	background-image: url('../collages/collage-2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 55% 30%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+
 .header-cover {
-    background-image: url('../images/front-page-cover-1.jpg');
-    background-repeat: no-repeat;
-    background-position: 55% 50%;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: auto;
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../collages/collage-1.jpg');
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../collages/collage-1.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../collages/collage-1.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 30%;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
 }
 
 .cover-bold {
 	font-family: 'Poppins', sans-serif;
 	padding: 400px 0 5px 0;
-	font-size: 50px;
+	font-size: 40px;
 	color: white;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+
+.jumbotron p {
+	font-size: 16px;
+}
+
+.container {
+	
+}
+
+.content-title {
+	font-family: 'Poppins', sans-serif;
+	padding: 5px 0 5px 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #000;
+}
+
+.content {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: #000000;
 }
 
 .cover-normal {
@@ -51,6 +151,7 @@ body {
 
 .jumbotron-custom {
 	margin: 0px 0px 0px 0px;
+	background-color: #dddddd;
 }
 
 .footer {
@@ -65,6 +166,146 @@ body {
 	color: red;
 }
 
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+ 
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+#container ul
+			{
+			}
+				#container li
+				{
+					display: inline-block;
+					margin: 0.625em; /* 10 */
+				}
+					#container img
+					{
+						width: 15em; /* 140 */
+						height: 15em; /* 140 */
+						border-color: #eee;
+						border: 0.625em solid rgba( 255, 255, 255, .5 ); /* 10 */
+
+						-webkit-box-shadow: 0 0 0.313em rgba( 0, 0, 0, .05 ); /* 5 */
+						box-shadow: 0 0 0.313em rgba( 0, 0, 0, .05 ); /* 5 */
+
+						-webkit-transition: -webkit-box-shadow .3s ease, border-color .3s ease;
+						transition: box-shadow .3s ease, border-color .3s ease;
+					}
+						#container img:hover,
+						#container img:focus
+						{
+							border-color: #fff;
+
+							-webkit-box-shadow: 0 0 0.938em rgba( 0, 0, 0, .25 ); /* 15 */
+							box-shadow: 0 0 0.938em rgba( 0, 0, 0, .25 ); /* 15 */
+						}
+
 .footer-text {
 	color: rgba(255,255,255,0.4);
+}
+
+.cover-content-2 {
+	padding: 100px;
+}
+
+.buy-box {
+	padding: 30px 60px 30px 60px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+/* .buy-box:nth-child(3n+1){
+    clear:left
+} */
+
+.buy-box-image {
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.buy-box-heading {
+	font-family: 'Lido', sans-serif;
+	font-size: 16px !important;
+	font-weight: 700;
+	color: #000000;
+	letter-spacing: 2px;
+	margin: 0px !important;
+	text-transform: uppercase;
+	padding: 10px 10px 5px 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.buy-box-content {
+	font-family: 'Lido', sans-serif;
+	font-size: 14px !important;
+	font-weight: 300;
+	color: #000000;
+	text-align: center;
+	letter-spacing: 0px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.buy-box-amazon {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 12px;
+	border: 1px solid black;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 6px 16px;
+	margin-top: 5px;
+}
+
+.embedded-video {
+	padding: 20px;
+}
+
+.event {
+	margin: 20px 0 20px 0;
+}
+
+.event-date {
+	margin: 0 35px 20px 0;
+	padding: 10px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	width: 75px;
+	height: 75px;
+	display: block;
+	background-color: #f5f5f5;
+}
+
+.event-month {
+	font-size: 14px;
+}
+
+.event-day {
+	font-size: 30px;
+}
+
+.event-header {
+	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+}
+
+.event-content {
+	padding: 10px 0 10px 0px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+
+p span {
+	display: block;
+}
+
+p {
+	line-height: 1.8;
 }
